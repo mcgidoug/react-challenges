@@ -1,10 +1,10 @@
 import "./App.css";
-import ButtonCounter from "./components/ButtonCounter";
+import ToggleMessage from "./components/ToggleMessage";
 
 function App() {
   return (
     <div className="App">
-      <ButtonCounter />
+      <ToggleMessage />
     </div>
   );
 }
