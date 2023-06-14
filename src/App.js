@@ -1,10 +1,10 @@
 import "./App.css";
-import ToggleMessage from "./components/ToggleMessage";
+import ToDoItems from "./components/ToDoItems";
 
 function App() {
   return (
     <div className="App">
-      <ToggleMessage />
+      <ToDoItems />
     </div>
   );
 }
