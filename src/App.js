@@ -1,10 +1,10 @@
 import "./App.css";
-import ColorPicker2 from "./components/ColorPicker2";
+import Counter2 from "./components/Counter2";
 
 function App() {
   return (
     <div className="App">
-      <ColorPicker2 />
+      <Counter2 />
     </div>
   );
 }
