@@ -1,10 +1,10 @@
 import "./App.css";
-import ColorPicker1 from "./components/ColorPicker1";
+import ColorPicker2 from "./components/ColorPicker2";
 
 function App() {
   return (
     <div className="App">
-      <ColorPicker1 />
+      <ColorPicker2 />
     </div>
   );
 }
