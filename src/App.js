@@ -1,10 +1,10 @@
 import "./App.css";
-import TemperatureConverter from "./components/TempConverter";
+import SimpleCalculator from "./components/SimpleCalc";
 
 function App() {
   return (
     <div className="App">
-      <TemperatureConverter />
+      <SimpleCalculator />
     </div>
   );
 }
