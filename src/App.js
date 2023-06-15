@@ -1,10 +1,10 @@
 import "./App.css";
-import ToDoItems from "./components/ToDoItems";
+import ColorPicker1 from "./components/ColorPicker1";
 
 function App() {
   return (
     <div className="App">
-      <ToDoItems />
+      <ColorPicker1 />
     </div>
   );
 }
