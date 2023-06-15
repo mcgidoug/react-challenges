@@ -1,10 +1,10 @@
 import "./App.css";
-import Counter2 from "./components/Counter2";
+import TemperatureConverter from "./components/TempConverter";
 
 function App() {
   return (
     <div className="App">
-      <Counter2 />
+      <TemperatureConverter />
     </div>
   );
 }
