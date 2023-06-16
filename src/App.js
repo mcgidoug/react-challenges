@@ -1,10 +1,10 @@
 import "./App.css";
-import CharacterCounter from "./components/CharacterCounter";
+import SimpleTodoList from "./components/SimpleTodoList";
 
 function App() {
   return (
     <div className="App">
-      <CharacterCounter />
+      <SimpleTodoList />
     </div>
   );
 }
