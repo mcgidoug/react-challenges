@@ -1,10 +1,10 @@
 import "./App.css";
-import { RandomQuoteGenerator } from "./components/RandomQuoteGenerator";
+import CharacterCounter from "./components/CharacterCounter";
 
 function App() {
   return (
     <div className="App">
-      <RandomQuoteGenerator />
+      <CharacterCounter />
     </div>
   );
 }
