@@ -1,10 +1,10 @@
 import "./App.css";
-import SimpleTodoList from "./components/SimpleTodoList";
+import Timer from "./components/Timer";
 
 function App() {
   return (
     <div className="App">
-      <SimpleTodoList />
+      <Timer />
     </div>
   );
 }
