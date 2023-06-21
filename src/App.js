@@ -1,10 +1,10 @@
 import "./App.css";
-import SimpleFetch from "./components/SimpleFetch";
+import SimpleButtonFetch from "./components/SimpleButtonFetch";
 
 function App() {
   return (
     <div className="App">
-      <SimpleFetch />
+      <SimpleButtonFetch />
     </div>
   );
 }

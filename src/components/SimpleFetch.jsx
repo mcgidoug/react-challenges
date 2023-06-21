@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const TimerFetch = () => {
+const SimpleFetch = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -22,6 +22,6 @@ const TimerFetch = () => {
   );
 };
 
-export default TimerFetch;
+export default SimpleFetch;
 
 // https://jsonplaceholder.typicode.com/posts

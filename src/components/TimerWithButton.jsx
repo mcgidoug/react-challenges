@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function Timer() {
+function TimerWithButton() {
   const [seconds, setSeconds] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
 
@@ -33,4 +33,4 @@ function Timer() {
   );
 }
 
-export default Timer;
+export default TimerWithButton;
