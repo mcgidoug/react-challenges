@@ -1,10 +1,10 @@
 import "./App.css";
-import Timer from "./components/Timer";
+import TimerWithButton from "./components/TimerWithButton";
 
 function App() {
   return (
     <div className="App">
-      <Timer />
+      <TimerWithButton />
     </div>
   );
 }
