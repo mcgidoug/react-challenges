@@ -1,10 +1,10 @@
 import "./App.css";
-import TimerWithButton from "./components/TimerWithButton";
+import SimpleFetch from "./components/SimpleFetch";
 
 function App() {
   return (
     <div className="App">
-      <TimerWithButton />
+      <SimpleFetch />
     </div>
   );
 }
