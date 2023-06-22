@@ -1,10 +1,10 @@
 import "./App.css";
-import BackgroundColorButton from "./components/BackgroundColorButton";
+import SignInForm from "./components/SignInForm";
 
 function App() {
   return (
     <div className="App">
-      <BackgroundColorButton />
+      <SignInForm />
     </div>
   );
 }
