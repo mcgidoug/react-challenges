@@ -1,10 +1,10 @@
 import "./App.css";
-import SimpleButtonFetch from "./components/SimpleButtonFetch";
+import BackgroundColorButton from "./components/BackgroundColorButton";
 
 function App() {
   return (
     <div className="App">
-      <SimpleButtonFetch />
+      <BackgroundColorButton />
     </div>
   );
 }
