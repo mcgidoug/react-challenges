@@ -1,10 +1,10 @@
 import "./App.css";
-import RockPaperScissors from "./components/RockPaperScissors";
+import RpsGame from "./components/RpsUpgrade/RpsGame";
 
 function App() {
   return (
     <div className="App">
-      <RockPaperScissors />
+      <RpsGame />
     </div>
   );
 }
