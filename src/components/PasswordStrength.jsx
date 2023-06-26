@@ -10,7 +10,7 @@ const PasswordStrength = () => {
     console.log(password);
   };
 
-  const handleResponseMessage = () => {
+  const handleResponseMessage = (password) => {
     if (password.length >= 8) {
       setResponse("Strong");
     } else if (password.length >= 6) {
@@ -21,8 +21,8 @@ const PasswordStrength = () => {
   };
 
   useEffect(() => {
-    handleResponseMessage();
-  });
+    handleResponseMessage(password);
+  }, [password]);
 
   return (
     <div>
