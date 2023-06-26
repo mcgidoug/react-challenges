@@ -1,10 +1,10 @@
 import "./App.css";
-import RpsGame from "./components/RpsUpgrade/RpsGame";
+import PasswordStrength from "./components/PasswordStrength";
 
 function App() {
   return (
     <div className="App">
-      <RpsGame />
+      <PasswordStrength />
     </div>
   );
 }
