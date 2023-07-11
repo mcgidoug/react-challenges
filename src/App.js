@@ -1,10 +1,10 @@
 import "./App.css";
-import PasswordStrength from "./components/PasswordStrength";
+import SimpleState from "./components/SimpleState";
 
 function App() {
   return (
     <div className="App">
-      <PasswordStrength />
+      <SimpleState />
     </div>
   );
 }
