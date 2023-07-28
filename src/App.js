@@ -1,10 +1,10 @@
 import "./App.css";
-import SimpleState from "./components/SimpleState";
+import Clock from "./components/Clock";
 
 function App() {
   return (
     <div className="App">
-      <SimpleState />
+      <Clock />
     </div>
   );
 }
