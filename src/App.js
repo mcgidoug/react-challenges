@@ -1,10 +1,10 @@
 import "./App.css";
-import ListCreator from "./components/ListCreator";
+import RandListCreator from "./components/RandListCreator";
 
 function App() {
   return (
     <div className="App">
-      <ListCreator />
+      <RandListCreator />
     </div>
   );
 }
