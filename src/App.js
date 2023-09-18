@@ -1,10 +1,10 @@
 import "./App.css";
-import RandListCreator from "./components/RandListCreator";
+import InputList from "./components/InputList";
 
 function App() {
   return (
     <div className="App">
-      <RandListCreator />
+      <InputList />
     </div>
   );
 }
