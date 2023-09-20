@@ -1,10 +1,10 @@
 import "./App.css";
-import InputList from "./components/InputList";
+import NewModal from "./components/NewModal";
 
 function App() {
   return (
     <div className="App">
-      <InputList />
+      <NewModal />
     </div>
   );
 }
