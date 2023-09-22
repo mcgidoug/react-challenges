@@ -1,10 +1,10 @@
 import "./App.css";
-import NewModal from "./components/NewModal";
+import ModalTwo from "./components/ModalTwo";
 
 function App() {
   return (
     <div className="App">
-      <NewModal />
+      <ModalTwo />
     </div>
   );
 }
